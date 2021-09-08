@@ -35,6 +35,7 @@ public class Application {
 
     // WARNING! this uses the Java 17 preview language feature - pattern matching in a switch statement
     private static BigDecimal determineBonusAmount(Object o, double salary) {
+        //Individual contributors are awarded a 10% bonus, members of management are awarded a 25% bonus
         final double INDIVIDUAL_CONTRIBUTOR_PERCENTAGE = 0.1;
         final double MANAGER_PERCENTAGE = 0.25;
 

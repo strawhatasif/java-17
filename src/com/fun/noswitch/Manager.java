@@ -4,6 +4,7 @@ import java.math.BigDecimal;
 
 public final class Manager extends Employee {
 
+    //Members of management are awarded a 25% bonus
     public static final double MANAGER_PERCENTAGE = 0.25;
 
     @Override
